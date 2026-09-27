@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support &amp; Help Desk - Due Express: Deadline Timer</title>
+  <meta name="description" content="Official support page for Due Express - Deadline Timer by Bigz Apps. Frequently asked questions, troubleshooting, and contact email.">
+  <link rel="icon" type="image/png" href="app-icon.png">
+  <link rel="apple-touch-icon" href="app-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .support-cta-box {
+      background: linear-gradient(135deg, var(--color-paper-card) 0%, var(--color-paper) 100%);
+      border: 2px solid var(--color-cargo);
+      border-radius: var(--radius-lg);
+      padding: 2.25rem;
+      text-align: center;
+      margin-bottom: 2.5rem;
+      box-shadow: var(--shadow-card);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .support-cta-box::after {
+      content: "SUPPORT DISPATCH";
+      position: absolute;
+      right: -30px;
+      bottom: -15px;
+      font-family: var(--font-mono);
+      font-size: 3.5rem;
+      font-weight: 800;
+      color: var(--color-cargo);
+      opacity: 0.05;
+      pointer-events: none;
+      letter-spacing: 0.05em;
+    }
+
+    .support-email-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.65rem;
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #FFFFFF;
+      background: linear-gradient(135deg, var(--color-cargo) 0%, var(--color-cargo-deep) 100%);
+      padding: 0.85rem 1.85rem;
+      border-radius: var(--radius-pill);
+      text-decoration: none;
+      box-shadow: var(--shadow-cargo);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      margin-top: 1rem;
+    }
+
+    .support-email-btn:hover {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 12px 28px rgba(255, 122, 30, 0.4);
+    }
+
+    .faq-item {
+      background: var(--color-paper);
+      border: 1px solid var(--color-line);
+      border-radius: var(--radius-md);
+      padding: 1.35rem 1.6rem;
+      margin-bottom: 1.15rem;
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .faq-item:hover {
+      border-color: var(--color-cargo);
+      transform: translateY(-2px);
+    }
+
+    .faq-question {
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: var(--color-ink);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .faq-answer {
+      font-size: 0.975rem;
+      color: var(--color-ink-soft);
+      line-height: 1.65;
+    }
+
+    .spec-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 1.25rem;
+    }
+
+    .spec-card {
+      background-color: var(--color-paper);
+      border: 1px solid var(--color-line);
+      border-radius: var(--radius-sm);
+      padding: 1rem;
+    }
+
+    .spec-card-label {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--color-cargo-deep);
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 0.25rem;
+    }
+
+    .spec-card-value {
+      font-weight: 700;
+      color: var(--color-ink);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="brand">
+        <img src="app-icon.png" alt="Due Express App Icon" class="brand-icon-img" width="44" height="44">
+        <div class="brand-text">
+          <h1>Due Express</h1>
+          <span>Deadline Timer</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Privacy Policy</a>
+        <a href="terms.html" class="nav-link">Terms of Use</a>
+        <a href="support.html" class="nav-link active">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-app-badge">
+        <img src="app-icon.png" alt="Due Express App Logo" class="hero-logo-img" width="96" height="96">
+        <div class="tracking-badge">OFFICIAL SUPPORT DISPATCH &bull; BIGZ APPS</div>
+      </div>
+      <h2>Need Help with Due Express?</h2>
+      <p class="hero-subtitle">
+        Have questions about your deadline timers, notification settings, or need to report an issue? We're here to help you stay on schedule.
+      </p>
+      <div class="metadata-bar">
+        <div class="metadata-item">
+          <span>✉️</span>
+          <span><strong>Support:</strong> bigzapps.support@gmail.com</span>
+        </div>
+        <div class="metadata-item">
+          <span>⚡</span>
+          <span><strong>Response Time:</strong> Within 24 Hours</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Support Content Area -->
+  <main class="content-wrapper">
+    <article class="policy-card">
+
+      <!-- Prominent Direct Contact Box -->
+      <div class="support-cta-box">
+        <div class="stamp-box" style="margin-bottom: 0.85rem;">DIRECT COURIER DISPATCH</div>
+        <h3 style="font-family: var(--font-display); font-size: 1.85rem; font-weight: 800; color: var(--color-ink); margin-bottom: 0.5rem;">
+          Contact Support Directly
+        </h3>
+        <p style="color: var(--color-ink-soft); max-width: 580px; margin: 0 auto 0.5rem;">
+          Our developer support desk is ready to answer questions, investigate bugs, or hear your feature requests.
+        </p>
+        <a href="mailto:bigzapps.support@gmail.com?subject=Due%20Express%20Support%20Request" class="support-email-btn">
+          <span>✉️</span>
+          <span>bigzapps.support@gmail.com</span>
+        </a>
+      </div>
+
+      <!-- FAQ Section -->
+      <section class="policy-section" style="border-top: none; padding-top: 0; margin-top: 0;">
+        <div class="section-header">
+          <span class="section-number">?</span>
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-item">
+          <h3 class="faq-question"><span>⏱️</span> How do I create a new deadline countdown?</h3>
+          <p class="faq-answer">
+            Tap the <strong>+</strong> button on the bottom bar to open the shipment creation sheet. Enter a title for your milestone, select your due date and exact target time, choose a color tag, and save. Your countdown will immediately start ticking.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 class="faq-question"><span>🔔</span> Why did I miss a deadline notification?</h3>
+          <p class="faq-answer">
+            Ensure notification permissions are granted: open your device <em>Settings &gt; Due Express &gt; Notifications</em> and verify that <strong>Allow Notifications</strong> and <strong>Sounds</strong> are turned on. Also make sure an iOS <strong>Focus</strong> or <strong>Do Not Disturb</strong> filter is not silencing alert banners.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 class="faq-question"><span>🔒</span> Where is my deadline data stored?</h3>
+          <p class="faq-answer">
+            Due Express is an offline-first app. All countdowns, task titles, notes, and custom preferences are stored locally in your iPhone's sandboxed storage. Your personal information is never uploaded to external servers.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 class="faq-question"><span>📱</span> How do I backup or move countdowns to a new iPhone?</h3>
+          <p class="faq-answer">
+            Because Due Express uses standard iOS local storage, your app data is automatically preserved whenever you perform a standard encrypted iCloud Backup or computer backup (via Finder or iTunes) and restore it to your new device.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 class="faq-question"><span>✈️</span> Does Due Express require an active internet connection?</h3>
+          <p class="faq-answer">
+            No! Due Express works 100% offline. You can create deadlines, check countdowns, and receive notification reminders on airplanes, underground, or anywhere without cell reception.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3 class="faq-question"><span>💡</span> How can I request a new feature?</h3>
+          <p class="faq-answer">
+            We actively build features based on user feedback! Send us your suggestions at <a href="mailto:bigzapps.support@gmail.com?subject=Due%20Express%20Feature%20Suggestion" style="color: var(--color-ocean); font-weight: 600;">bigzapps.support@gmail.com</a>.
+          </p>
+        </div>
+      </section>
+
+      <!-- App Metadata Specs -->
+      <section class="policy-section">
+        <div class="section-header">
+          <span class="section-number">i</span>
+          <h2>Application Information</h2>
+        </div>
+        <p>Reference information for App Store verification and support requests:</p>
+        <div class="spec-grid">
+          <div class="spec-card">
+            <div class="spec-card-label">Application</div>
+            <div class="spec-card-value">Due Express - Deadline Timer</div>
+          </div>
+          <div class="spec-card">
+            <div class="spec-card-label">Developer</div>
+            <div class="spec-card-value">Bigz Apps</div>
+          </div>
+          <div class="spec-card">
+            <div class="spec-card-label">Bundle ID</div>
+            <div class="spec-card-value">com.bigzapps.dueexpress</div>
+          </div>
+          <div class="spec-card">
+            <div class="spec-card-label">Support Email</div>
+            <div class="spec-card-value"><a href="mailto:bigzapps.support@gmail.com" style="color: var(--color-ocean); text-decoration: none;">bigzapps.support@gmail.com</a></div>
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <a href="index.html" class="footer-logo">
+        <img src="app-icon.png" alt="Due Express" width="32" height="32" style="border-radius: 8px;">
+        <span>Due Express</span>
+      </a>
+      <div class="footer-links">
+        <a href="index.html" class="footer-link">Privacy Policy</a>
+        <a href="terms.html" class="footer-link">Terms of Use</a>
+        <a href="support.html" class="footer-link">Support</a>
+        <a href="mailto:bigzapps.support@gmail.com" class="footer-link">Contact Support</a>
+      </div>
+      <p class="copyright">&copy; 2026 Bigz Apps. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
